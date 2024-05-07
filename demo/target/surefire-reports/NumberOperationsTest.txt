@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: NumberOperationsTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.124 sec <<< FAILURE! - in NumberOperationsTest
+testMax(NumberOperationsTest)  Time elapsed: 0.017 sec  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	Unhandled exception type FileNotFoundException
+
+	at NumberOperationsTest.testMax(NumberOperationsTest.java:28)
+
+testMin(NumberOperationsTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	Unhandled exception type FileNotFoundException
+
+	at NumberOperationsTest.testMin(NumberOperationsTest.java:19)
+
+testSum(NumberOperationsTest)  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	Unhandled exception type FileNotFoundException
+
+	at NumberOperationsTest.testSum(NumberOperationsTest.java:36)
+
+testEqual(NumberOperationsTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problems: 
+	Unhandled exception type FileNotFoundException
+	Unhandled exception type FileNotFoundException
+
+	at NumberOperationsTest.testEqual(NumberOperationsTest.java:61)
+
+testMult(NumberOperationsTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.Error: 
+Unresolved compilation problem: 
+	Unhandled exception type FileNotFoundException
+
+	at NumberOperationsTest.testMult(NumberOperationsTest.java:44)
+
