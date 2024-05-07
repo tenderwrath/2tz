@@ -46,13 +46,14 @@ public class NumberOperationsTest {
         assertEquals(expectedMin, actualMin);
     }
 
-    // @Test
-    // public void testTime() {
-    //     String filename = "test_numbers.txt";
-    //     int expectedMin = 1; 
-    //     int actualMin = NumberOperations.min(filename);
-    //     assertEquals(expectedMin, actualMin);
-    // }
+    @Test
+    public void testPerformance() {
+        long startTime = System.currentTimeMillis();
+        
+        long endTime = System.currentTimeMillis();
+        long duration = endTime - startTime;
+        System.out.println("Execution time: " + duration + " ms");
+    }
 
     @Test
     public void testEqual() {

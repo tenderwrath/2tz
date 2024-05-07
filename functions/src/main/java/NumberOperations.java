@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class NumberOperations {
 
-    public static int _min(String filename) throws FileNotFoundException {
+    public static int _min(String filename) throws FileNotFoundException { // поиск минимума
         Scanner scanner = new Scanner(new File(filename));
         int min = Integer.MAX_VALUE;
         while (scanner.hasNextInt()) {
@@ -19,7 +19,7 @@ public class NumberOperations {
         return min;
     }
 
-    public static int _max(String filename) throws FileNotFoundException {
+    public static int _max(String filename) throws FileNotFoundException { // поиск максимума
         Scanner scanner = new Scanner(new File(filename));
         int max = Integer.MIN_VALUE;
         while (scanner.hasNextInt()) {
@@ -32,7 +32,7 @@ public class NumberOperations {
         return max;
     }
 
-    public static int _sum(String filename) throws FileNotFoundException {
+    public static int _sum(String filename) throws FileNotFoundException { // функция, считающая сумму входящих чисел
         Scanner scanner = new Scanner(new File(filename));
         int sum = 0;
         try {
@@ -46,7 +46,7 @@ public class NumberOperations {
         return sum;
     }
 
-    public static int _mult(String filename) throws FileNotFoundException {
+    public static int _mult(String filename) throws FileNotFoundException { // функция, считающее произведение входящих чисел
         Scanner scanner = new Scanner(new File(filename));
         int mult = 1;
         while (scanner.hasNextInt()) {
@@ -57,13 +57,16 @@ public class NumberOperations {
     }
 
     public static void main(String[] args) {
-        String filename = "demo/src/test/resources/tests/test1.txt";
+        
+        String filename = "functions/src/test/resources/tests/test1.txt";
 
         try {
             System.out.println("Минимальное: " + _min(filename));
             System.out.println("Максимальное: " + _max(filename));
             System.out.println("Сумма: " + _sum(filename));
             System.out.println("Произведение: " + _mult(filename));
+
+
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден.");
         }
