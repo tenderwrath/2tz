@@ -1,4 +1,4 @@
-package functions.src.test.java;
+package demo.src.test.java;
 
 import static org.junit.Assert.*;
 
